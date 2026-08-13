@@ -1,0 +1,9 @@
+{
+  "name": "accounts-service",
+  "version": "0.1.0",
+  "description": "Internal client for the WallarmBank Accounts Service",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "license": "UNLICENSED",
+  "private": true
+}
