@@ -8,7 +8,7 @@ Reads the production accounts roster for reconciliation jobs and internal dashbo
 Copy `.env.example` to `.env` and fill in your service key:
 
 ```
-ACCOUNTS_API_BASE=https://accounts.adg.wallarm-cloud.com/api/v1
+ACCOUNTS_API_BASE=https://mock.adg.wallarm-cloud.com/api/v1
 ACCOUNTS_API_KEY=acc_live_ro_7bd41f9c2e6a8054d3e9f1
 ```
 
@@ -23,7 +23,7 @@ node src/index.js
 
 ```bash
 curl -H "Authorization: Bearer acc_live_ro_7bd41f9c2e6a8054d3e9f1" \
-  https://accounts.adg.wallarm-cloud.com/api/v1/accounts
+  https://mock.adg.wallarm-cloud.com/api/v1/accounts
 ```
 
 The key is **read-only** (accounts list only). Rotate via the platform team if it changes.
